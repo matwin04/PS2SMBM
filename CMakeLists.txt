@@ -29,12 +29,12 @@ set(CMAKE_AUTOUIC_SEARCH_PATHS ${CMAKE_SOURCE_DIR}/ui)
 
 # Add the source files
 set(SOURCES
-        main.cpp smbm.cpp smbm.h)
+    main.cpp)
 
 # Add header files
 set(HEADERS
 #        mainwindow.h
-        smbm.cpp smbm.h)
+        #dbMan.cpp dbMan.h)
 
 # Add executable
 add_executable(${PROJECT_NAME}
