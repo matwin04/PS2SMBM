@@ -1,0 +1,11 @@
+smbFolder: "/test"
+dbPath: "psmb.db"
+[OPL]
+OPLFolders:
+  - "CD"
+  - "DVD"
+  - "VMC"
+  - "APPS"
+  - "CFG"
+  - "ART"
+  - "THM"

@@ -1,0 +1,10 @@
+h1 {
+    color: blue
+}
+
+#addgame_r {
+    border: 1px solid;
+}
+#addgame_o {
+    border: 1px dashed;
+}

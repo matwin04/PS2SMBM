@@ -1,0 +1,26 @@
+h1 {
+    color: blue;
+}
+#mygames_table_psp {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+}
+#mygames_table_ps2 {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+}
+table#mygames_table_ps2 th {
+    background-color: darkcyan;
+}
+table#mygames_table_psp th {
+    background-color: darkorange;
+}
+p {
+    margin: 2px;
+}
+
+tr:hover {
+    background-color: #f4f4f4;
+}

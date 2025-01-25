@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Add Game</title>
+        <link rel="stylesheet" href="resources/form.css">
+    </head>
+    <body>
+        <h1>Add Game</h1>
+        <form id="addgame">
+            <div id="addgame_r">
+                <h3>Requied Data</h3>
+                <label for="addgame_title">Game Title</label>
+                <input type="text" id="addgame_title"><br>
+
+                <label for="addgame_file">Game File</label>
+                <input type="file" id="addgame_file"><br>
+
+                <label for="addgame_type">Game Type</label>
+                <select name="addgame_type" id="addgame_type">
+                    <option value="DVD">DVD</option>
+                    <option value="CD">CD</option>
+                </select>
+            </div>
+            
+
+            
+            <div id="addgame_o">
+                <h3>Optional Data</h3>
+                <p>Optional data includes not necessary things such as metadata</p>
+                <label for="addgame_region">Region</label>
+                <select name="addgame_region" id="addgame_region">
+                    <option value="US">US</option>
+                    <option value="JP">JP</option>
+                    <option value="EU">EU</option>
+                </select><br>
+
+                <label for="addgame_date">Release Date</label>
+                <input id="addgame_date" type="date">
+            </div>
+            
+
+            <input type="submit" id="addgame_submit">
+        </form>
+    </body>
+</html>
